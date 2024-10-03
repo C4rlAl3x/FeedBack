@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        h2 {
+            font-family: Kanit;
+            ,
+            sans-serif;
+            ;
+        }
+
+        button {
+            background-color: brown;
+            color: azure;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        .nota {
+            color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+        }
+
+        fieldset {
+            width: 450px;
+            background-color: white;
+            border-radius: 15px;
+        }
+
+        form {
+            background-color: rgb(95, 14, 0);
+            height: 400px;
+            width: 480px;
+            margin-left: 35%;
+            margin-top: 1%;
+            border-radius: 20%;
+            padding: 50px;
+
+
+        }
+
+        .opcao {
+            color: rgb(0, 0, 0);
+        }
+
+        .titulo {
+            margin-left: 47%;
+            font-size: larger;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulo">
+
+        <h2>Feedback</h2>
+
+    </div>
+    <form action="Exercicio2.php" method="post">
+        <div id="pond">
+            <label class="nota">Avalie a compra:</label>
+            <br><br>
+            <fieldset>
+                <input type="radio" name="feedback" value="otimo">
+                <label class="opcao">Ótimo</label>
+                <input type="radio" name="feedback" value="bom">
+                <label class="opcao">Bom</label>
+                <input type="radio" name="feedback" value="podia ser melhor">
+                <label class="opcao">Podia ser melhor</label>
+                <input type="radio" name="feedback" value="ruim">
+                <label class="opcao">Ruim</label>
+                <input type="radio" name="feedback" value="horrivel">
+                <label class="opcao">Horrível</label>
+            </fieldset>
+            <br><br>
+
+            <label class="nota">Avalie o produto:</label>
+            <br><br>
+            <fieldset>
+                <input type="radio" name="feedback2" value="otimo">
+                <label class="opcao">Ótimo</label>
+                <input type="radio" name="feedback2" value="bom">
+                <label class="opcao">Bom</label>
+                <input type="radio" name="feedback2" value="podia ser melhor">
+                <label class="opcao">Podia ser melhor</label>
+                <input type="radio" name="feedback2" value="ruim">
+                <label class="opcao">Ruim</label>
+                <input type="radio" name="feedback2" value="horrivel">
+                <label class="opcao">Horrível</label>
+            </fieldset>
+            <br><br>
+
+            <label class="nota">Avalie o atendimento:</label>
+            <br><br>
+            <fieldset>
+                <input type="radio" name="feedback3" value="otimo">
+                <label class="opcao">Ótimo</label>
+                <input type="radio" name="feedback3" value="bom">
+                <label class="opcao">Bom</label>
+                <input type="radio" name="feedback3" value="podia ser melhor">
+                <label class="opcao">Podia ser melhor</label>
+                <input type="radio" name="feedback3" value="ruim">
+                <label class="opcao">Ruim</label>
+                <input type="radio" name="feedback3" value="horrivel">
+                <label class="opcao">Horrível</label>
+            </fieldset>
+            <br><br>
+        </div>
+        <div class="enviar">
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
